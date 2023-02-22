@@ -1,0 +1,29 @@
+{
+  "name": "api-mssql-nodejs-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "mssql": "^6.3.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",    
+    "formidable": "^1.2.2",
+    "request": "^2.34",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
